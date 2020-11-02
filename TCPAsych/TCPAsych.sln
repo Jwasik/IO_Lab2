@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30523.141
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Main", "..\Main\Main.csproj", "{74741DE6-5697-4C63-9707-91BD69660EDA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TCPAsynchClasses", "..\TCPAsynch\TCPAsynchClasses.csproj", "{2F6C0C56-9EAC-4D02-AB00-4B6AB99F93B2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{74741DE6-5697-4C63-9707-91BD69660EDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74741DE6-5697-4C63-9707-91BD69660EDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74741DE6-5697-4C63-9707-91BD69660EDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74741DE6-5697-4C63-9707-91BD69660EDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F6C0C56-9EAC-4D02-AB00-4B6AB99F93B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F6C0C56-9EAC-4D02-AB00-4B6AB99F93B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F6C0C56-9EAC-4D02-AB00-4B6AB99F93B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F6C0C56-9EAC-4D02-AB00-4B6AB99F93B2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {837F69AD-A2F8-47A9-BD72-C19CC635FAB8}
+	EndGlobalSection
+EndGlobal
