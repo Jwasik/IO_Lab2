@@ -1,0 +1,21 @@
+Wymagania funkcjonalne
+1. Administrator uruchamia aplikację serwera.
+2. Serwer rozpoczyna działanie od razu po uruchomieniu aplikacji.
+3. Administrator kończy działanie aplikacji serwera.
+4. Klient łączy się z aplikacją serwera.
+5. Serwer prosi klienta o hasło dostępu, dopóki nie poda prawidłowego.
+5. Po podaniu prawidłowego hasła, klient przesyła wiadomość do serwera, serwer odpowiada klientowi dokładnie taką samą
+wiadomością.
+6. Klient kończy połączenie z aplikacją serwera.
+
+Wymagania pozafunkcjonalne
+1. Aplikacja serwera jest dostarczona w postaci aplikacji konsolowej przeznaczonej na system
+Windows..
+2. W komunikacji klient-serwer wykorzystywany jest protokół komunikacyjny Raw –
+wiadomości przesyłane są bezpośrednio.
+3. W ramach serwera nie jest implementowana obsługa rozłączającego się klienta.
+4. W ramach serwera nie jest implementowana informacja o wyłączeniu serwera przysłana do
+klienta.
+5. Serwer utrzymuje połączenia z różnymi klientami na raz, również z jednego adresu IP.
+6. Serwer nie kończy swojego działania do czasu zamknięcia aplikacji przez administratora.
+7. Implementacja serwera nie jest wersjonowana (otwartość).
